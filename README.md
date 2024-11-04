@@ -1,6 +1,6 @@
-#Luckey kávézó
-*HTML5
-*CSS3
+#Luckey kávézó 
+*HTML5 
+*CSS3 
 
 
 
