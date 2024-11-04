@@ -1,1 +1,7 @@
-# FarkasAdam-Banki.github.io
+#Luckey kávézó
+*HTML5
+*CSS3
+
+
+
+
