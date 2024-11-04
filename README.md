@@ -3,6 +3,9 @@
 * CSS 3
 * bootstrap
 
+## Feladatok
+1. Adatgyűjtés
+2. Tervezés
 
 
 
