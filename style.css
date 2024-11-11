@@ -1,0 +1,19 @@
+body{
+    background-color: #fbefbb;
+}
+nav{
+    background-color: #1f5b52;
+    padding: 15px;
+}
+nav a{
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #fff;
+   
+}
+nav a:first-child{
+    font-size: 1.5;
+}
