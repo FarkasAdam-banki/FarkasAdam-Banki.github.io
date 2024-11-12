@@ -36,6 +36,7 @@ nav a:first-child{
     border: 1px solid #1F5B25;
     border-radius: 4px;
     margin-bottom: 1rem;
+    position: relative;
 }
 .kave:hover{
     box-shadow: 0px 0px 5px #1F5B25;
@@ -47,4 +48,14 @@ nav a:first-child{
     margin-bottom: 1rem;
     font-variant: small-caps;
     
+}
+.img-fluid{
+    height: 200px;
+    width: 100%;
+}
+.napiajanlat{
+    width: 60px;
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
