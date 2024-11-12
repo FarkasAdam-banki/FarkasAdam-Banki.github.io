@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.min.js"></script>
     <title>Kávéfajták</title>
 </head>
 <body>
@@ -27,20 +28,20 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4"><div class="kave">
+            <div class="col-lg-4 col-md-6"><div class="kave">
                 <img src="./assets/espresso_k.jpg" alt="" class="img-fluid">
                 <h2>ESPRESSO</h2>
             </div></div>
-            <div class="col-lg-4"><div class="kave">
+            <div class="col-lg-4 col-md-6"><div class="kave">
                 <img src="./assets/americano_k.jpg" alt="" class="img-fluid">
                 <h2>AMERICANO</h2>
             </div></div>
-            <div class="col-lg-4"><div class="kave">
+            <div class="col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#cappuccinoModal"><div class="kave">
                 <img src="./assets/virag.png" alt="virág" class="napiajanlat">
                 <img src="./assets/cappuccino_k.jpg" alt="" class="img-fluid">
                 <h2>CAPPUCIONO</h2>
             </div></div>
-            <div class="col-lg-4"><div class="kave">
+            <div class="col-lg-4 col-md-6"><div class="kave">
                 <img src="./assets/latte_k.jpg" alt="" class="img-fluid">
                 <h2>LATTE MACCHIATO</h2>
             </div></div>
@@ -48,9 +49,24 @@
     </div>
 
 </header>
-<main>
 
-</main>
+  <!-- Modal -->
+  <div class="modal fade" id="cappuccinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <footer>
 
 </footer>
